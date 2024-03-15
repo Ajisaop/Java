@@ -1,0 +1,17 @@
+class Rect
+{
+void area(int l,int b)
+{
+int a=l*b;
+int p=2*(l+b);
+System.out.println("Area of rectangle:"+a);
+System.out.println("Perimeter of rectangle:"+p);
+
+}}
+class RectMain{
+ public static void main(String Args[])
+{
+Rect ar=new Rect();
+ar.area(5,6);
+}
+}
