@@ -1,0 +1,16 @@
+class Rect
+{
+void area()
+{
+int l=6;
+int b=5;
+int a=l*b;
+System.out.println("Area of rectangle:"+a);
+}}
+class RectMain{
+ public static void main(String Args[])
+{
+Rect ar=new Rect();
+ar.area();
+}
+}
